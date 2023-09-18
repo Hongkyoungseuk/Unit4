@@ -4,12 +4,12 @@ public class Main {
     }
     //_1
     public static double converLireEuro(int n) {
-        // TODO 돈을 유로로 환전
+        // TODO 돈을 유로(Euro)로 환전
         return (double)n;
     }
     //_2
     public static boolean sumOverflow(byte x, byte y) {
-        // TODO 오버플로가 일어나면 true 
+        // TODO overflow가 일어나면 true 
 
         return true;
     }
@@ -20,7 +20,7 @@ public class Main {
         return true;
     }
     //_5
-    // TODO 에러가 안생기게 하시세요
+    // TODO error가 안 생기게 하시세요
     public static void exercise_5() {
         short x = 22;
         byte y = x;
@@ -30,6 +30,7 @@ public class Main {
     public static void exercise() {
         byte b; short s; int i; long l; float f; double d; char c; boolean b1, b2;
         //_6
+        // TODO 각 표현의 대하여 어떠한 유형(types)을 가지는지 쓰시오.
         /*
          b + 10L
          (b+i)+l
@@ -43,6 +44,7 @@ public class Main {
          */
 
         //_7
+        // TODO 다음중 어떤것이 compiler error를 일으키는지 말하시오.
         a = 65L;
         f = i+100;
         i = 2*b +l;
@@ -51,33 +53,11 @@ public class Main {
         c = b;
         c = 'b';
     }
+    //_8 -> Account.java , Exercise_4_8.java
+    //_9 -> Product.java , TestProduct.java
     //_10
     public static char lastCharater(String s) {
-        //TODO 문자열의 마지막 문자를 봔환
+        //TODO 문자열(string) 의 마지막 문자를 return하게 작성
         return ;
-    }
-    
-    
+    }    
 }
-
-//_8
-public class Account {
-    public int bal;
-    public Account(int x) {
-        bal = x;
-    }
-}
-public class Exercise_4_8 {
-    public static void method(int a, Account b) {
-        a *= 2;
-        b.bal *=2;
-    }
-    public static void main(String[] args) {
-        int c = 100;
-        Account r = new Account(100);
-        method(c, r);
-        System.out.println(c + " " + r.bal);
-    }
-}
-
-
