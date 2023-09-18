@@ -8,5 +8,3 @@ public class TestProduct {
         System.out.println("After the loading: " + lamp);
     }   
 }
-
-
