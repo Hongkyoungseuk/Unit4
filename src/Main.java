@@ -13,6 +13,7 @@ public class Main {
 
         return true;
     }
+    //_3 TODO 직접 두개에 정수를 읽고 화면에 출력하는 프로그램을 작성하세요.
     //_4
     public static boolean even(long x) {
         // TODO 숫자가 짝수면 true 홀수면 false
