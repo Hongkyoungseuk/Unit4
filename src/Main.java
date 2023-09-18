@@ -51,6 +51,11 @@ public class Main {
         c = b;
         c = 'b';
     }
+    //_10
+    public static char lastCharater(String s) {
+        //TODO 문자열의 마지막 문자를 봔환
+        return ;
+    }
     
     
 }
@@ -74,5 +79,5 @@ public class Exercise_4_8 {
         System.out.println(c + " " + r.bal);
     }
 }
-//_9
+
 
